@@ -1,0 +1,13 @@
+alias k=kubectl
+alias kg="k get"
+alias kgp="k get pod"
+alias kgd="k get deploy"
+alias kgs="k get svc"
+alias kgn="k get nodes"
+alias kd="k describe"
+alias kdpo="k describe pod"
+alias kdno="k describe no"
+alias kge="k get events --sort-by='.metadata.creationTimestamp' |tail -8"
+
+export dog='--dry-run=client -o yaml'
+export fog='--force --grace-period=0'
